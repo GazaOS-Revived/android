@@ -1,15 +1,20 @@
-<a href="#"><img src="Banner.png" /></a>
+![GazaOS Logo](https://i.postimg.cc/yYNg3mRy/Picsart-25-06-15-00-05-32-620.jpg)
 
-#
+GazaOS based on matrixxOS 
+
+### Spinning up the environment
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/akhilnarang/scripts/refs/heads/master/setup/android_build_env.sh)
+```
 
 ### Create a directory for the source files & Go into created directory
 ```
-mkdir matrixx
-cd matrixx
+mkdir GazaOS 
+cd GazaOS 
 ```
 ### Initializing Repo
 ```
-repo init -u https://github.com/ProjectMatrixx/android.git -b 15.0 --git-lfs
+repo init -u https://github.com/GazaOS-Revived/android.git -b 15.0 --git-lfs
 ```
 
 ### Now sync sources
@@ -27,6 +32,7 @@ brunch devicecodename
 
 ```
 # To include Gapps 
+`by default false`
 WITH_GMS := true
 
 # To Build Google(Dailer, Message, Phone) and BCR
@@ -61,3 +67,20 @@ BYPASS_CHARGE_SUPPORTED  := true
 
 ```
 
+### Credits
+--------------
+ * [**AOSP**](https://android.googlesource.com)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**AOSPA**](https://github.com/AOSPA)
+ * [**HentaiOS**](https://github.com/hentaios)
+ * [**Project Radiant**](https://github.com/ProjectRadiant)
+ * [**PixelOS-AOSP**](https://github.com/PixelOS-AOSP)
+ * [**StatixOS**](https://github.com/StatiXOS)
+ * [**Project Pixelage**](https://github.com/ProjectPixelage)
+ * [**cAOSP**](https://github.com/c0smic-Lab)
+ * [**SomethingOS**](https://github.com/SomethingOS)
+ * [**DerpFest-AOSP**](https://github.com/DerpFest-AOSP)
+ * [**aospb-project**](https://github.com/aospb-project)
+ * [**custom-crdroid**](https://github.com/custom-crdroid)
+ * [**Project Matrixx**](https://github.com/ProjectMatrixx)
+ * ... And the list never ends.
