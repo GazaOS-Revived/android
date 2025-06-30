@@ -5,14 +5,12 @@
            sync-c="true"
            sync-j="4"
            revision="refs/heads/15.0" />
- 
   <remote  name="GazaOS"
            fetch="https://github.com/GazaOS"
            sync-c="true"
            sync-j="4"
            revision="refs/heads/15.0" />
-  
-  <remote  name="matrixx-devices"
+   <remote  name="matrixx-devices"
            fetch="https://github.com/Matrixx-Devices"
            sync-c="true"
            sync-j="4"
