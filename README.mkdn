@@ -15,6 +15,7 @@ cd GazaOS
 ### Initializing Repo
 ```
 repo init -u https://github.com/GazaOS-Revived/android.git -b 15.0 --git-lfs
+
 ```
 
 ### Now sync sources
